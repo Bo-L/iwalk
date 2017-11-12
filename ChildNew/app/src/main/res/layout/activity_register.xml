@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="390dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/colorPureWhile"
+        android:layout_above="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:layout_x="35dp"
+        android:layout_y="494dp"
+
+        android:background="@drawable/corner_button"
+        android:gravity="center"
+        android:text="注    册"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:layout_x="34dp"
+        android:layout_y="418dp"
+        android:background="@drawable/circle_edit"
+        android:ems="10"
+        android:hint="确认密码"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/editText8"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_marginBottom="18dp"
+        android:layout_x="29dp"
+        android:layout_y="350dp"
+        android:background="@drawable/circle_edit"
+        android:ems="10"
+        android:hint="输入密码"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:cursorVisible="false"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/circle_edit"
+        android:ems="10"
+        android:hint="输入账号"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:cursorVisible="false"/>
+
+
+</RelativeLayout>

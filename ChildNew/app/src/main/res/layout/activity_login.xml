@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.boge.child.login.Login"
+    android:background="@drawable/background">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_account"
+        android:background="@drawable/circle_edit"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:hint="用户名"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/edit_password"
+        android:layout_alignLeft="@+id/edit_password"
+        android:layout_alignStart="@+id/edit_password"
+        android:cursorVisible="false"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edit_password"
+        android:background="@drawable/circle_edit"
+        android:layout_marginBottom="109dp"
+        android:layout_x="69dp"
+        android:layout_y="138dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:hint="输入密码"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/bt_submit"
+        android:layout_alignStart="@+id/bt_submit"
+        android:cursorVisible="false"/>
+
+
+
+    <Button
+        android:text="登陆"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/bt_submit"
+        android:background="@drawable/corner_button"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="注册新账户"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_account"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/edit_account"
+        android:layout_marginTop="27dp"
+        android:text="忘记密码"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/account"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="11dp"
+        android:layout_alignTop="@+id/edit_account"
+        android:layout_alignLeft="@+id/edit_account"
+        android:layout_alignStart="@+id/edit_account" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/password"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/edit_account"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="12dp"/>
+</RelativeLayout>
