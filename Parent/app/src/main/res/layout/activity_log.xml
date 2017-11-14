@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_edit"
+        android:ems="10"
+        android:hint="用户名"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="10dp"
+        android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_edit"
+        android:ems="10"
+        android:hint="密 码"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:cursorVisible="false"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="登 陆"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/corner_button"
+        android:textSize="18dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册新账户"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignTop="@+id/editText"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/account"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        app:srcCompat="@drawable/password"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:srcCompat="@drawable/message" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        app:srcCompat="@drawable/message" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="忘记密码"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+</RelativeLayout>

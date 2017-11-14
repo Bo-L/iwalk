@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/color_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.07"
+            app:srcCompat="@mipmap/arrow_back_white"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.77"
+            android:text="                      使用帮助"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorWhite"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:text="一、连接设备"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="       点击连接设备按钮，在出现的框中选中设备H-C-2010,初次连接时密码为1234"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:text="二、跌倒检测"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="       当系统判断用户跌倒时，会给用户30s的取消时间，如果30s过后未取消，会向指定子女发送短信，用户可以自己设定子女账号"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:text="三、电子栅栏"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="       用户点击实时定位，地图右下方可以设置家的位置，当用户迷失方向或者想选择最近的路径时，可以根据地图提供的路线返回"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:text="四、步数管理"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="       系统会记下用户行走的步数，每周末会生成用户的运动周报，给用户健康提示"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:text="五、、其他"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="       系统还包含一些其他小功能，如天气查询等供用户使用。如果您在使用中发现错误，请与我们联系,开发者邮箱：1628773521@qq.com"
+            android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

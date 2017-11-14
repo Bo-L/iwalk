@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhile">#00ffffff</color>
+    <color name="yellow">#fd9c06</color>
+    <color name="red">#ff0004</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="color_one">#FDE4BB</color>
+    <color name="color_two">#FCD2A1</color>
+    <color name="color_three">#EF8273</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colortransparent">#00ffffff</color>
+    <color name="colorGray2">#f62e2e2e</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhiteAndTrans">#aaffffff</color>
+    <color name="colorGrayTrans">#d0707070</color>
+    <color name="blackOlive">#39393F</color>
+    <color name="ButtonGray">#bcbcb8</color>
+    <color name="FontColor">#fc4f60</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="innerGray">#229e9e9e</color>
+    <color name="colorBlackTrans">#d4000000</color>
+    <color name="orderPink">#a8ff5a6a</color>
+    <color name="orderGray">#229e9e9e</color>
+    <color name="startColor">#eb4176</color>
+    <color name="endColor">#eb455b</color>
+    <color name="XXX">#b6b6b6</color>
+    <color name="huang">#ffffef</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boge.laonianbao.step.curve.StepCurve">
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart"
+        android:layout_width="350dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chart"
+        android:layout_alignStart="@+id/chart"
+        android:layout_below="@+id/chart"
+        android:layout_marginTop="29dp"
+        android:text="iwalk建议:"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="我知道了"
+        android:textColor="@color/colorGrayTrans"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/corner_curve_button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="本周运动量基本达标，但存在运动量过大和过低现象，希望本条建议可以给您帮助"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>
