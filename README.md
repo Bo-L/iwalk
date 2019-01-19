@@ -1,2 +1,3 @@
-# iwalk
-iwalk-老人行走关怀系统
+# iwalk(App and Server)
+build tool: Android Studio/Eclipse
+iwalk-Walking Care System for the Elderly
